@@ -1,0 +1,62 @@
+nav{
+  position: fixed;
+}
+
+.titulo{
+  color: green;
+  text-align: center;
+}
+
+.somos{
+  text-align: justify;
+}
+
+/* footer */
+#footer{
+  background-color: green;
+  /* margin-right: 0; */
+}
+
+#row-contacto{
+  border: 2px solid black;
+}
+
+#formulario{
+  border: 1px solid black;
+  padding: 3% 2%;
+  height: 50%;
+  /* margin-left: 1px; */
+  box-sizing: border-box;
+}
+
+#redes{
+  padding: 3% 2%;
+  border: 1px solid black;
+  /* margin-left: 0; */
+  box-sizing: border-box;
+
+}
+
+
+/* blog */
+section{
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+.linea{
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.padding-arriba{
+padding-top: 30px;
+box-sizing: border-box;
+}
+
+
+/* fin de blog */
