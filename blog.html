@@ -10,7 +10,7 @@
 </head>
 <body>
   
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
     <a class="navbar-brand" href="index.html">Fundación</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
           <a class="nav-link" href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
         </li>
       </ul>
     </div>
@@ -33,31 +33,90 @@
   
   
   <section>
-    <div class="row">
-      <div class="col-md-4 offset-md-1 col-lg-4 offset-lg-1 linea padding-arriba">
+    <div class="row padding-arriba">
+      <div class="col-xs-12 offset-1 col-md-9 offset-md-2 col-lg-8 offset-lg-2 linea padding-arriba">
+        <img src="img/taller.jpg" class="img-fluid">
         <h3 class="titulo negrita"> Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoyo para Padres 2016</h3><br> 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, quasi totam? Molestias cumque modi nam totam facere recusandae tenetur praesentium expedita doloremque blanditiis dolores voluptatibus ad, porro corrupti, labore dignissimos!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellendus, facere, iure optio incidunt, distinctio quasi officia similique nisi eum recusandae possimus eligendi voluptas odit sint. Iste quas illum et!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ad, maiores, facilis porro dolores id accusantium sit ullam provident error et perspiciatis hic laboriosam consequuntur molestiae at ipsa nemo dolore.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellendus, facere, iure optio incidunt, distinctio quasi officia similique nisi eum recusandae possimus eligendi voluptas odit sint. Iste quas illum et!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ad, maiores, facilis porro dolores id accusantium sit ullam provident error et perspiciatis hic laboriosam consequuntur molestiae at ipsa nemo dolore.
         </p>
       </div>
-      <br>
-
-      <div class="col-md-4 offset-md-1 col-lg-4 offset-lg-1 col-xs-10 offset-md-2 linea padding-arriba">
+      
+      <div class="padding-arriba">
+        <div class="col-xs-10 offset-0 col-md-9 offset-md-2 col-lg-8 offset-lg-2 linea padding-arriba">
+          <div class="text-center">
+            <img src="img/etica.jpg" class="img-fluid">
+          </div>
           <h3 class="titulo negrita"> Ética en los tiempos del Autismo (Día Internacional del Síndrome de Asperger)</h3><br> 
           <p>En cinco años, hemos hecho un progreso lento, pero constante en el conocimiento sobre las condiciones del espectro autista. La palabra Asperger que hasta hace poco era totalmente desconocida, despertando el temor de padres y profesionales de la Educación, ya está en el inconsciente colectivo de los chilenos. Sin embargo, conocer, verbo tan general, tan poco apropiado para la medición y la precisión que el tema requiere, hace mucho tiempo dejó de bastarnos. En muchos niveles donde ese rigor no sólo es esperado, sino que absolutamente indispensable para maximizar los potenciales del colectivo.
           </p>
         </div>
-     </div>
-  </section>
-  
-  
-  
-  
-  
-  
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+      </div>
+    </div>
+</section>
+
+<footer id="footer">
+  <div id="row-contacto" class="row">
+    <div id="formulario" class="col-xs-11 offset-1 col-md-9 offset-md-2 col-lg-5 offset-lg-1"> 
+      <form>
+        <h3 class="negrita text-center">Enviar Mensaje</h3><br>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="">Datos</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Nombres">
+          <input type="text" class="form-control" placeholder="Apellidos">
+        </div>
+        
+        
+        <div class="form-group">
+          <br>
+          <label for="exampleFormControlInput1">Dirección de Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@correo.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Notas</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+    
+    <div id="redes" class="col-xs-11 offset-1 col-md-9 offset-md-2 col-lg-5 offset-lg-1">
+      <h3 class="negrita text-center">Contacto</h3><br>
+      <strong>Fundación Asperger Chile</strong><br>
+      <p>Av. Luis Thayer Ojeda 855, Providencia, Región Metropolitana</p>
+      
+      <p>P: +56-2-2400300 </p>
+      <a href="mailto:#">correo@gmail.com</a>
+      <br><br>
+      
+      <div>
+        <a href="https://www.facebook.com/fundacionchile/">
+          <img src="http://aspergerchile.cl/wp-content/themes/nitrogen/images/face.jpg" alt="Twitter">
+        </a>
+        
+        <a href="http://twitter.com/Aspergerchile_F">
+          <img src="http://aspergerchile.cl/wp-content/themes/nitrogen/images/twitter.jpg" alt="Twitter">
+        </a>
+        
+        <a href="http://www.youtube.com/channel/UCv927I1W_spt4eVdrYUSlqw">
+          <img src="http://aspergerchile.cl/wp-content/themes/nitrogen/images/yt.jpg" alt="Canal de Youtube">
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 </html>

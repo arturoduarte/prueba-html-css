@@ -9,32 +9,56 @@ nav{
 
 .somos{
   text-align: justify;
+  padding: 2% 2%;
 }
+
+/* section */
+#img-thumbnail{
+  /* width: 100%; */
+  box-sizing: border-box;
+  text-align: center !important;  
+}
+
+#miniatura{
+  text-align: center !important;  
+  padding: 2% 0;
+}
+
+/* fin de section */
+
 
 /* footer */
 #footer{
   background-color: green;
   /* margin-right: 0; */
+  width: 100%;
 }
 
+.row{
+  width: 100%;
+}
+
+
+
 #row-contacto{
-  border: 2px solid black;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #formulario{
-  border: 1px solid black;
-  padding: 3% 2%;
+  
+  padding: 3% 1%;
   height: 50%;
-  /* margin-left: 1px; */
-  box-sizing: border-box;
+  /* margin-left: 2%; */
+  /* box-sizing: border-box; */
+  width: 100%;
+  
 }
 
 #redes{
   padding: 3% 2%;
-  border: 1px solid black;
   /* margin-left: 0; */
   box-sizing: border-box;
-
 }
 
 
@@ -54,9 +78,26 @@ section{
 }
 
 .padding-arriba{
-padding-top: 30px;
-box-sizing: border-box;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.padding-izquierda{
+  padding-left: 8%;
+  box-sizing: border-box;
 }
 
 
 /* fin de blog */
+
+
+/* nosotros.html */
+.parrafo-fin{
+  padding: 2% 5%;
+}
+
+.parrafo-fin2{
+  padding: 2% 5%;
+}
+  
+  /* fin de nosotros.html */
