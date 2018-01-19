@@ -1,27 +1,28 @@
 nav{
-  position: fixed;
+	position: fixed;
 }
 
 .titulo{
-  color: green;
-  text-align: center;
+	color: green;
+	text-align: center;
 }
 
 .somos{
-  text-align: justify;
-  padding: 2% 2%;
+	text-align: justify;
+	padding: 2% 2%;
 }
 
 /* section */
-#img-thumbnail{
-  /* width: 100%; */
-  box-sizing: border-box;
-  text-align: center !important;  
+#miniatura{
+	text-align: center !important;  
+	padding: 2% 0;
+	padding-left: 2%;
+	margin: auto;
 }
 
-#miniatura{
-  text-align: center !important;  
-  padding: 2% 0;
+.texto-noticia{
+	text-align: justify;  
+	padding: 0 2%;
 }
 
 /* fin de section */
@@ -29,75 +30,75 @@ nav{
 
 /* footer */
 #footer{
-  background-color: green;
-  /* margin-right: 0; */
-  width: 100%;
+	background-color: green;
+	/* margin-right: 0; */
+	width: 100%;
 }
 
 .row{
-  width: 100%;
+	width: 100%;
 }
 
-
-
 #row-contacto{
-  width: 100%;
-  box-sizing: border-box;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 #formulario{
-  
-  padding: 3% 1%;
-  height: 50%;
-  /* margin-left: 2%; */
-  /* box-sizing: border-box; */
-  width: 100%;
-  
+	padding: 3% 1%;
+	height: 50%;
+	/* margin-left: 2%; */
+	/* box-sizing: border-box; */
+	width: 100%;
 }
 
 #redes{
-  padding: 3% 2%;
-  /* margin-left: 0; */
-  box-sizing: border-box;
+	padding: 3% 2%;
+	/* margin-left: 0; */
+	box-sizing: border-box;
 }
-
 
 /* blog */
 section{
-  padding: 50px 0;
-  box-sizing: border-box;
+	padding: 6% 0;
 }
 
 .linea{
-  border: 2px solid green;
-  box-sizing: border-box;
+	border: 2px solid green;
+}
+
+body{
+	width: 100%;
 }
 
 .negrita{
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .padding-arriba{
-  padding-top: 30px;
-  box-sizing: border-box;
+	padding-top: 1%;
+}
+
+.padding-row-arriba{
+	padding-top: 1em;
 }
 
 .padding-izquierda{
-  padding-left: 8%;
-  box-sizing: border-box;
+	padding-left: 0%;
+	box-sizing: border-box;
 }
 
-
+.margen-abajo{
+	margin-bottom: 10px;
+}
 /* fin de blog */
-
 
 /* nosotros.html */
 .parrafo-fin{
-  padding: 2% 5%;
+	padding: 2% 5%;
 }
 
 .parrafo-fin2{
-  padding: 2% 5%;
+	padding: 2% 5%;
 }
-  
-  /* fin de nosotros.html */
+	/* fin de nosotros.html */
